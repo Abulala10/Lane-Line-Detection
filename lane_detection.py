@@ -91,8 +91,8 @@ def readVideo(_video):
 if __name__ == '__main__':
 
     try:
-        if os.listdir("C:\\abulala\\MIT\\TRIMESTER 1\\ARTIFICIAL INTELLIGENCE\\test_videos\\"):
-            video_location = "C:\\abulala\\MIT\\TRIMESTER 1\\ARTIFICIAL INTELLIGENCE\\test_videos\\solidYellowLeft.mp4"
+        if os.listdir(location of your directory where the video is saved): # Eg : C:\\folder1\\folder2\\
+            video_location = location of your directory where the video is saved with the file name # Eg C:\\folder1\\folder2\\filename.mp4
             readVideo(video_location)
 
     except Exception as e:
